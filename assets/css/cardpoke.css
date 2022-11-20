@@ -127,10 +127,10 @@ body {
 
 #card {
     width: 100%;
-    height: 600px;
+    height: auto;
     display: grid;
     grid-template-columns: 1fr;
-    border-radius: 1rem; 
+    border-radius: 1rem;
 }
 
 #identification {
@@ -156,6 +156,11 @@ body {
 .pokemon {
     text-align: center;
     padding: 0.6rem;
+}
+
+.imagem img {
+    width: 100%;
+
 }
 
 .estatisticas {

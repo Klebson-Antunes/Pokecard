@@ -23,7 +23,7 @@ function convertPokemonToLi(pokemon) {
                 <h3 class="number">${pokemon.numero}</h3>
             </div>
             <div class="imagem">
-                <img width="200" src="${pokemon.photo}" alt="${pokemon.name}">
+                <img src="${pokemon.photo}" alt="${pokemon.name}">
                
             </div>
             <div class="estatisticas">
